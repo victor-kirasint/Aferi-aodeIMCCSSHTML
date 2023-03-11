@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    justify-content: space-around;
+    grid-template-areas: "background";
+    margin-bottom: 0;
+}
+#background{
+    background-color: #2e2d2d;
+    grid-area: "background";
+    display: flex;
+    
+
+}
+#backgroundgradient{
+    position: absolute;
+    width: 426px;
+    height: 122px;
+    left: -26px;
+    top: 755px;
+
+background: #F53638;
+filter: blur(90px);
+}
+
+
+#botão1{
+    
+    display: flex;
+    position: absolute;
+    width: 226px;
+    height: 77px;
+    left: 70px;
+    top: 391px;
+
+background: #5086F2;
+box-shadow: 0px 0px 11.3904px #5086F2, 0px 0px 6.5088px #5086F2, 0px 0px 3.7968px #5086F2, 0px 0px 1.8984px #5086F2, 0px 0px 0.5424px #5086F2, 0px 0px 0.2712px #5086F2;
+border-radius: 10px;
+    display: flex;
+}
+#botão1 a{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    font-family: gotham;
+    left: 73px;
+    top: 30px;
+    text-decoration: none;
+    color: white;
+}
+#Logotipo img{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 650px;
+    left: 127px;
+}
+#Textoprincipal{
+    display: flex;
+    color: white;
+    text-align: top;
+    font-family: gotham;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 60px;
+}
+#Arrow{
+position: absolute;
+left: 55px;
+top: 500px;
+transform: rotate(-90deg);
+}
+#textosobre{
+    font-family: gotham;
+    position: relative;
+    bottom: 50px;
+    font-size: 25px;
+    left: 130px;
+    color: white;
+}

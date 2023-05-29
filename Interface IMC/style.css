@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Gotham Black";
+    src: url(https://www.fontmirror.com/app_public/files/t/1/GOTHAM-BLACK_3cbfe3a6e2f69550bc1cbfca3714ed88.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    background-color: #2e2d2d;
+}
+.container{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    grid-template-areas: 
+    "logoma logoma logoma"
+    "afericao afericao afericao"
+    "iniciar iniciar iniciar";
+    height: 900px;
+}
+#logoma{
+    width: 120px;
+    grid-area: logoma;
+    margin: auto;
+}
+#afericao{
+    font-weight: 900;
+    font-family: "Gotham Black", sans-serif;
+    grid-area: afericao;
+    text-align: center;
+    font-size: 30px;
+    color: #FFF;
+}
+#iniciar{
+    color: #FFF;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Gotham Black", sans-serif;
+    border: none;
+    grid-area: iniciar;
+    width: 226px;
+    height: 77px;
+    background: #5086F2;
+    box-shadow: 0px 0px 11.3904px #5086F2, 0px 0px 6.5088px #5086F2, 0px 0px 3.7968px #5086F2, 0px 0px 1.8984px #5086F2, 0px 0px 0.5424px #5086F2, 0px 0px 0.2712px #5086F2;
+    border-radius: 10px;
+}
+#blur{
+    width: 100%;
+    height: 50px;
+    background: #F53638;
+    filter: blur(112.5px);
+    justify-content: end;
+}
